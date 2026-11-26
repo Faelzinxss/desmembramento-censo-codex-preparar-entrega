@@ -1,0 +1,24 @@
+.lotes-preview{max-width:1200px;margin:1.5rem auto;color:#14213d}
+.lotes-preview header p,.lotes-preview section>p{color:#52617a;line-height:1.5}
+.lotes-preview fieldset{border:1px solid #dce4f2;border-radius:12px;padding:1.2rem;margin:1rem 0;background:#fff;min-width:0}
+.lotes-preview legend{font-weight:750;padding:0 .4rem}
+.lotes-fields{display:grid;grid-template-columns:2fr 1.5fr 1fr;gap:1rem}
+.lotes-fields label{display:grid;gap:.5rem;font-size:.85rem;font-weight:650}
+.lotes-fields input,.lotes-fields select{width:100%;min-width:0;padding:.75rem;border:1px solid #cbd5e1;border-radius:8px;background:#fff;color:#14213d;font:inherit}
+.lotes-team{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.6rem;margin-top:1rem}
+.lotes-team label{display:flex;align-items:center;gap:.6rem;padding:.65rem;background:#f6f8fc;border-radius:8px;overflow-wrap:anywhere}
+.lotes-team input{width:18px;height:18px;flex:none}
+.lotes-actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.lotes-preview button:disabled{opacity:.55;cursor:not-allowed}
+.lotes-totals{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1rem 0}
+.lotes-totals>div{display:grid;gap:.5rem;padding:1rem;background:#fff;border:1px solid #dce4f2;border-radius:10px}
+.lotes-totals strong{font-size:1.7rem}.lotes-totals span{font-size:.85rem}
+.lotes-warning{padding:1rem;background:#fff5dc;border-radius:9px;color:#72500b}
+.lotes-table{overflow:auto;margin:1rem 0}.lotes-table table{width:100%;border-collapse:collapse;background:#fff}
+.lotes-table caption{text-align:left;font-weight:700;padding:.7rem 0}
+.lotes-table th,.lotes-table td{text-align:left;padding:.85rem;border-bottom:1px solid #dce4f2}
+.lotes-table thead{background:#e9eff8}.lotes-preview details{padding:1rem;background:#fff;border-radius:10px}
+.lotes-preview summary{cursor:pointer;font-weight:700}.lotes-preview li{overflow-wrap:anywhere}
+.lotes-confirm{margin:1.5rem 0;padding:1rem;border:1px solid #dce4f2;border-radius:10px}.lotes-confirm p{margin-bottom:0;color:#52617a}
+@media(max-width:700px){.lotes-fields,.lotes-totals{grid-template-columns:1fr}.lotes-table th,.lotes-table td{padding:.6rem}.lotes-preview fieldset{padding:.8rem}}
+.my-batches{margin:0 0 1rem}.my-batches-list{display:grid;gap:.7rem}.my-batches article{display:grid;grid-template-columns:1.2fr 1.5fr auto;align-items:center;gap:1rem;padding:1rem;border:1px solid #dce4f2;border-radius:12px;background:#fff}.my-batches h3,.my-batches p{margin:.2rem 0}.my-batches small{color:#1554d1;font-weight:800;text-transform:uppercase}.my-batches-numbers{display:flex;gap:1rem;flex-wrap:wrap}.my-batches-numbers span{display:grid;color:#52617a;font-size:.72rem}.my-batches-numbers b{color:#14213d;font-size:1rem}@media(max-width:800px){.my-batches article{grid-template-columns:1fr}.my-batches article button{width:100%}}
