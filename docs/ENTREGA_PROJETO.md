@@ -17,7 +17,7 @@ A referência de produção deve ser conferida no Cloudflare e no Supabase na da
 
 | Serviço | Referência | Conferência para entrega |
 |---|---|---|
-| GitHub | `joaochvs/desmembramento-censo` | Organização de destino, permissões e integração de publicação |
+| GitHub | `Faelzinxss/desmembramento-censo-codex-preparar-entrega` | Organização de destino, permissões e integração de publicação |
 | Supabase | `iybqjvldjbknvglqqkdx` | Organização, titulares, cobrança, Auth, backups e definições SQL instaladas |
 | Cloudflare | Worker `desmembramento-censo` | URL de produção, versão ativa, branch publicada, variáveis e cobrança |
 | Azure SQL | `VISITAS_CENSO.dbo.vw_desmembramentos` | Responsável pela fonte, leitura individual autorizada, rede e suporte |
@@ -101,7 +101,7 @@ A restauração integral, a versão servida pelo Cloudflare, a configuração de
 
 ## Conferência de 12/11/2026
 
-O PR [4](https://github.com/joaochvs/desmembramento-censo/pull/4) está aberto em rascunho, com integração possível e revisão pendente. A versão reunida está publicada na branch de entrega.
+O PR [4](https://github.com/Faelzinxss/desmembramento-censo-codex-preparar-entrega/pull/4) está aberto em rascunho, com integração possível e revisão pendente. A versão reunida está publicada na branch de entrega.
 
 Consulta GET ao Supabase confirmou as cargas de 09, 10 e 11/11 em `enviando`. O log local de 11/11 registra 7.464 matrículas e 126.163 casos enviados, 59.590 desativações, 131 preservações por revisão e dois adiamentos por reserva. Esses estados precisam ser acompanhados pela operação antes de declarar encerradas as cargas.
 
@@ -156,7 +156,7 @@ O painel Cloudflare pediu login no navegador integrado. Conferência da versão 
 ## Cloudflare e backups gerenciados conferidos em 12/11/2026
 
 - Produção em `desmembramento-censo.deepessoas.workers.dev`, versão `7dd4a958`, com 100% do tráfego. O rótulo da versão referencia `7c9bf38`, redução de buscas repetidas na fila, enviada por Wrangler.
-- O repositório conectado é `joaochvs/desmembramento-censo`. A branch de produção configurada é `main`. Builds de outras branches estão habilitados.
+- O repositório conectado é `Faelzinxss/desmembramento-censo-codex-preparar-entrega`. A branch de produção configurada é `main`. Builds de outras branches estão habilitados.
 - Build `npm run build`, deploy de produção `npx wrangler deploy`, comando de versões `npx wrangler versions upload`, raiz `/` e cache de build habilitado.
 - Variáveis públicas de build identificadas pelos nomes `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY`. Valores ficam nas configurações autorizadas.
 - O commit da preparação `f89d6a7` produziu a versão `2b6f0728`, com status Ready. Essa versão aguarda revisão e promoção.
